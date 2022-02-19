@@ -40,7 +40,7 @@ namespace RavSoft.GoogleTranslator
                 this._comboFrom.Items.AddRange (Translator.Languages.ToArray());
                 this._comboTo.Items.AddRange (Translator.Languages.ToArray());
                 this._comboFrom.SelectedItem = "English";
-                this._comboTo.SelectedItem = "French";
+                this._comboTo.SelectedItem = "Spanish";
             }
 
         #endregion
